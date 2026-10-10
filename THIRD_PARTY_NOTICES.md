@@ -1,6 +1,6 @@
 # Third-party notices
 
-本產品程式使用 MIT。原創合成樣本 `data/samples.json`、回歸集 `data/evaluation-v1.json` 及保留集 `data/holdout-v1.json` 採 CC BY 4.0，建議引用「AI 模型服務與 MLOps 原創合成案例，2026」。新保留集由AI協助創作／標註，不是獨立專家或真實事故資料。權重與工具 binary 不提交 Git。
+本產品目前版本不提供 MIT 或其他通用開源程式授權，詳見 [授權說明](LICENSE_INFORMATION.md)。以下第三方授權依原條款保留，不能當成本產品的開源授權。原創合成樣本 `data/samples.json`、回歸集 `data/evaluation-v1.json` 及保留集 `data/holdout-v1.json` 原有 CC BY 4.0 標示不在此次變更範圍，建議引用「AI 模型服務與 MLOps 原創合成案例，2026」。新保留集由AI協助創作／標註，不是獨立專家或真實事故資料。權重與工具 binary 不提交 Git。
 
 | 項目 | 用途 | 授權／來源 |
 |---|---|---|

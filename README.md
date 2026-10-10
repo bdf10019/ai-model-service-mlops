@@ -71,7 +71,7 @@ pnpm preview
 
 歷史本機收尾為後端 97／97、前端 17／17、主產品 E2E 19／19。公開副本當次驗證另見 [PUBLIC_VERIFICATION](docs/PUBLIC_VERIFICATION.md)；沒有重新做 GPU 品質評測。某些證據產生器需要不公開的歷史 reports；已審核的展示摘要隨 showcase 提供，不承諾能從公開副本重建全部私有報告。
 
-尚未實跑 Docker／Linux 引擎／Prometheus 服務端；Model Registry、真正串流、相容端點、完整帳號管理與不同權重部署仍有缺口。SQLite、loopback HTTP 與單控制程序不適合直接暴露網路。程式保留既有 MIT，原創合成案例 CC BY 4.0；第三方與模型按原授權，見 [THIRD_PARTY_NOTICES](THIRD_PARTY_NOTICES.md)。
+尚未實跑 Docker／Linux 引擎／Prometheus 服務端；Model Registry、真正串流、相容端點、完整帳號管理與不同權重部署仍有缺口。SQLite、loopback HTTP 與單控制程序不適合直接暴露網路。依作者要求，目前版本不提供 MIT 或其他通用開源程式授權，見 [LICENSE_INFORMATION](LICENSE_INFORMATION.md)。既有原創合成案例 CC BY 4.0 與第三方、模型原授權聲明保留，見 [THIRD_PARTY_NOTICES](THIRD_PARTY_NOTICES.md)。
 
 ## 公開範圍與資料安全
 
