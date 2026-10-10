@@ -1,0 +1,18 @@
+{
+  "id": "asset",
+  "version": "asset-v1",
+  "name": "設備守望台",
+  "team": "設備管理團隊",
+  "accent": "#5654b8",
+  "noun": "設備事件",
+  "focus": "風險摘要與設備重要性",
+  "prompt_version": "triage-asset-v1",
+  "required_fields": ["incident_text", "asset_id", "asset_criticality", "maintenance_window"],
+  "review_severities": ["medium", "high", "critical", "unknown"],
+  "review_critical_assets": true,
+  "approvals_required": 2,
+  "maintenance_window_required": true,
+  "queue_limit": 2,
+  "queue_timeout_seconds": 5,
+  "generation_timeout_seconds": 60
+}

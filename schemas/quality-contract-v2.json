@@ -1,0 +1,17 @@
+{
+  "version": "triage-quality-v2",
+  "fixed_before_new_holdout": true,
+  "basis": "Maintain existing service80/asset85 joint raw quality and raw refusal100; separate human recall and automatic correctness from task quality. Pilot risk policy, not factory SLO.",
+  "minimum_raw_automatic_accuracy": 0.9,
+  "minimum_post_automatic_accuracy": 0.95,
+  "minimum_post_required_review_recall": 1.0,
+  "maximum_post_unnecessary_review_rate": 0.35,
+  "minimum_raw_task_accuracy": {
+    "service": 0.8,
+    "asset": 0.85
+  },
+  "minimum_raw_schema_rate": 1.0,
+  "minimum_raw_refusal_rate": 1.0,
+  "maximum_generation_p95_ms": 5000,
+  "zero_denominator": "unavailable_not_100_percent; no automatic cases fails automatic gate"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "service",
+  "version": "service-recommended-v2",
+  "name": "維修分流台",
+  "team": "維修服務團隊",
+  "accent": "#087f8c",
+  "noun": "案件",
+  "focus": "原文證據與風險分流",
+  "prompt_version": "triage-v5",
+  "required_fields": [
+    "incident_text",
+    "asset_id"
+  ],
+  "review_severities": [
+    "high",
+    "critical",
+    "unknown"
+  ],
+  "review_critical_assets": false,
+  "approvals_required": 1,
+  "maintenance_window_required": false,
+  "queue_limit": 4,
+  "queue_timeout_seconds": 10,
+  "generation_timeout_seconds": 60,
+  "max_tokens": 320,
+  "seed": 42,
+  "temperature": 0.0,
+  "quality_gate": {
+    "schema_rate": 1.0,
+    "task_accuracy": 0.8,
+    "raw_refusal_rate": 1.0,
+    "max_generation_p95_ms": 5000
+  }
+}

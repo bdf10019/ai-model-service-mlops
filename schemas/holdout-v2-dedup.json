@@ -1,0 +1,176 @@
+{
+  "method": "NFKC exact match and character4gram Jaccard against original24+observed16; same-AI semantic inspection, no independent reviewer",
+  "candidate_freeze_sha256": "110140d90c879127db91b178583b97bcf5b6540b7db803a9d94c3e6c46786d68",
+  "dataset_sha256": "d0404eaee6311d6d82ee3daa26ddf58657e2a90c7c3489627bb787118423984e",
+  "maximum_overlap": 0.1836734693877551,
+  "checks": [
+    {
+      "case": "h01",
+      "exact_duplicate": false,
+      "maximum_character_4gram_jaccard": 0.06818181818181818,
+      "closest_old_case": "n07",
+      "AI_semantic_check": "共同失敗類型保留，但事件結構、對比與因果證據不同；非獨立人工判定。"
+    },
+    {
+      "case": "h02",
+      "exact_duplicate": false,
+      "maximum_character_4gram_jaccard": 0.0,
+      "closest_old_case": "u16",
+      "AI_semantic_check": "共同失敗類型保留，但事件結構、對比與因果證據不同；非獨立人工判定。"
+    },
+    {
+      "case": "h03",
+      "exact_duplicate": false,
+      "maximum_character_4gram_jaccard": 0.0,
+      "closest_old_case": "u16",
+      "AI_semantic_check": "共同失敗類型保留，但事件結構、對比與因果證據不同；非獨立人工判定。"
+    },
+    {
+      "case": "h04",
+      "exact_duplicate": false,
+      "maximum_character_4gram_jaccard": 0.0,
+      "closest_old_case": "u16",
+      "AI_semantic_check": "共同失敗類型保留，但事件結構、對比與因果證據不同；非獨立人工判定。"
+    },
+    {
+      "case": "h05",
+      "exact_duplicate": false,
+      "maximum_character_4gram_jaccard": 0.0,
+      "closest_old_case": "u16",
+      "AI_semantic_check": "共同失敗類型保留，但事件結構、對比與因果證據不同；非獨立人工判定。"
+    },
+    {
+      "case": "h06",
+      "exact_duplicate": false,
+      "maximum_character_4gram_jaccard": 0.02631578947368421,
+      "closest_old_case": "n05",
+      "AI_semantic_check": "共同失敗類型保留，但事件結構、對比與因果證據不同；非獨立人工判定。"
+    },
+    {
+      "case": "h07",
+      "exact_duplicate": false,
+      "maximum_character_4gram_jaccard": 0.05357142857142857,
+      "closest_old_case": "u01",
+      "AI_semantic_check": "共同失敗類型保留，但事件結構、對比與因果證據不同；非獨立人工判定。"
+    },
+    {
+      "case": "h08",
+      "exact_duplicate": false,
+      "maximum_character_4gram_jaccard": 0.0,
+      "closest_old_case": "u16",
+      "AI_semantic_check": "共同失敗類型保留，但事件結構、對比與因果證據不同；非獨立人工判定。"
+    },
+    {
+      "case": "h09",
+      "exact_duplicate": false,
+      "maximum_character_4gram_jaccard": 0.09375,
+      "closest_old_case": "h02",
+      "AI_semantic_check": "共同失敗類型保留，但事件結構、對比與因果證據不同；非獨立人工判定。"
+    },
+    {
+      "case": "h10",
+      "exact_duplicate": false,
+      "maximum_character_4gram_jaccard": 0.043478260869565216,
+      "closest_old_case": "n10",
+      "AI_semantic_check": "共同失敗類型保留，但事件結構、對比與因果證據不同；非獨立人工判定。"
+    },
+    {
+      "case": "h11",
+      "exact_duplicate": false,
+      "maximum_character_4gram_jaccard": 0.1836734693877551,
+      "closest_old_case": "u07",
+      "AI_semantic_check": "共同失敗類型保留，但事件結構、對比與因果證據不同；非獨立人工判定。"
+    },
+    {
+      "case": "h12",
+      "exact_duplicate": false,
+      "maximum_character_4gram_jaccard": 0.0,
+      "closest_old_case": "u16",
+      "AI_semantic_check": "共同失敗類型保留，但事件結構、對比與因果證據不同；非獨立人工判定。"
+    },
+    {
+      "case": "h13",
+      "exact_duplicate": false,
+      "maximum_character_4gram_jaccard": 0.06382978723404255,
+      "closest_old_case": "u09",
+      "AI_semantic_check": "共同失敗類型保留，但事件結構、對比與因果證據不同；非獨立人工判定。"
+    },
+    {
+      "case": "h14",
+      "exact_duplicate": false,
+      "maximum_character_4gram_jaccard": 0.022727272727272728,
+      "closest_old_case": "h04",
+      "AI_semantic_check": "共同失敗類型保留，但事件結構、對比與因果證據不同；非獨立人工判定。"
+    },
+    {
+      "case": "h15",
+      "exact_duplicate": false,
+      "maximum_character_4gram_jaccard": 0.047619047619047616,
+      "closest_old_case": "m02",
+      "AI_semantic_check": "共同失敗類型保留，但事件結構、對比與因果證據不同；非獨立人工判定。"
+    },
+    {
+      "case": "h16",
+      "exact_duplicate": false,
+      "maximum_character_4gram_jaccard": 0.022727272727272728,
+      "closest_old_case": "f04",
+      "AI_semantic_check": "共同失敗類型保留，但事件結構、對比與因果證據不同；非獨立人工判定。"
+    },
+    {
+      "case": "h17",
+      "exact_duplicate": false,
+      "maximum_character_4gram_jaccard": 0.02127659574468085,
+      "closest_old_case": "u06",
+      "AI_semantic_check": "共同失敗類型保留，但事件結構、對比與因果證據不同；非獨立人工判定。"
+    },
+    {
+      "case": "h18",
+      "exact_duplicate": false,
+      "maximum_character_4gram_jaccard": 0.020833333333333332,
+      "closest_old_case": "m01",
+      "AI_semantic_check": "共同失敗類型保留，但事件結構、對比與因果證據不同；非獨立人工判定。"
+    },
+    {
+      "case": "h19",
+      "exact_duplicate": false,
+      "maximum_character_4gram_jaccard": 0.13333333333333333,
+      "closest_old_case": "u12",
+      "AI_semantic_check": "共同失敗類型保留，但事件結構、對比與因果證據不同；非獨立人工判定。"
+    },
+    {
+      "case": "h20",
+      "exact_duplicate": false,
+      "maximum_character_4gram_jaccard": 0.02127659574468085,
+      "closest_old_case": "n05",
+      "AI_semantic_check": "共同失敗類型保留，但事件結構、對比與因果證據不同；非獨立人工判定。"
+    },
+    {
+      "case": "h21",
+      "exact_duplicate": false,
+      "maximum_character_4gram_jaccard": 0.14705882352941177,
+      "closest_old_case": "u13",
+      "AI_semantic_check": "共同失敗類型保留，但事件結構、對比與因果證據不同；非獨立人工判定。"
+    },
+    {
+      "case": "h22",
+      "exact_duplicate": false,
+      "maximum_character_4gram_jaccard": 0.0425531914893617,
+      "closest_old_case": "a01",
+      "AI_semantic_check": "共同失敗類型保留，但事件結構、對比與因果證據不同；非獨立人工判定。"
+    },
+    {
+      "case": "h23",
+      "exact_duplicate": false,
+      "maximum_character_4gram_jaccard": 0.0,
+      "closest_old_case": "u16",
+      "AI_semantic_check": "共同失敗類型保留，但事件結構、對比與因果證據不同；非獨立人工判定。"
+    },
+    {
+      "case": "h24",
+      "exact_duplicate": false,
+      "maximum_character_4gram_jaccard": 0.0,
+      "closest_old_case": "u16",
+      "AI_semantic_check": "共同失敗類型保留，但事件結構、對比與因果證據不同；非獨立人工判定。"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+name: ai-model-console-fixture
+services:
+  console:
+    image: ai-model-console:0.3.0-local
+    build:
+      context: ..
+      dockerfile: infra/Dockerfile
+      args:
+        NODE_IMAGE: ${NODE_IMAGE:?Supply reviewed official Node 24 image with sha256 digest}
+        PYTHON_IMAGE: ${PYTHON_IMAGE:?Supply reviewed official Python 3.11 slim image with sha256 digest}
+    ports:
+      - "127.0.0.1:8128:8120"
+    volumes:
+      - ../state/container-console:/app/state
+      - ../tmp/container-console:/app/tmp
+    environment:
+      CONSOLE_STATE_DIR: state
+      CONSOLE_ENGINE_PORT: "8121"
+    init: true
+    restart: "no"
+    stop_grace_period: 20s
+    mem_limit: 768m
+    cpus: 2
+    read_only: true
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    logging:
+      driver: json-file
+      options: {max-size: "5m", max-file: "2"}

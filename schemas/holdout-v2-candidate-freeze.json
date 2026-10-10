@@ -1,0 +1,62 @@
+{
+  "version": "quality-v2-candidate-freeze-v1",
+  "frozen_at": "2026-09-14T21:53:21.690674+00:00",
+  "profiles": {
+    "service": "024c62d3dcb5a7a6c69c3549939fc69dcf3409bb6ff977c8042256a217e97429",
+    "asset": "609cfcb6dda7b5bb5e68951585d1b8e160bdee733cf4141b431d68365e597f10"
+  },
+  "contracts": {
+    "service": {
+      "policy_version": "safety-floor-v3",
+      "schema_version": "triage-v1",
+      "report_version": "equipment-report-v2",
+      "quality_metric_version": "triage-quality-v2",
+      "quality_threshold_sha256": "fd3c04640cf3e8932eacddcadadc727a0220ab5309fe8a0329ae5a1bd9dd2548",
+      "engine_build": "b10665",
+      "code_sha256": {
+        "__init__.py": "e90bbde083d5f6ab72bfaecc5a0ccfa1715f1b1c8bbc2285badb3dca8d41f708",
+        "app.py": "4d87f85edd02e6ae7a4d0958cc547dd3fbec19a77488cc1fac117d4cd602179c",
+        "auth.py": "a5d1b403ed3e6494ff536e9e58c11f3415afa4eff84e3053c27a66dc055e9362",
+        "context_quality.py": "de65009c1c370a917ca1ad9cd5eb3fbdc0e9e61a14ad90671b76140076ab28ad",
+        "domain.py": "a18e7c4a30519d38c16c3cba8a6e63473989f518fc6b71f77cab0f86ccf1cf51",
+        "engine.py": "9db1e31e8c5eaa6993c38e2a67c8446f377a6f2a708b191f976f1570549bbcdb",
+        "jobs.py": "c76b3fb1e7e35ae6d8d63384bda93883a790fbca298da1aaf4fee0e22db6c4af",
+        "legacy_domain.py": "19696870b9f0165c4061ccfbd1848f1e6014f79ddc2f3bd8864d99ecc28ff5f4",
+        "operations.py": "101566e5b2169f7029d6937790a38f3d30ffc9ebc145c25b6335d0c717fc8406",
+        "quality_metrics.py": "8319981e31fd40a0752ceb232d73bb138598b82a1667e54c94dc593bac41d33a",
+        "reviews.py": "ea0aa84961cec3e03336f602674f594540d70860d0c2c9ebf5d76b7d743e4666",
+        "store.py": "5ff6b5c9aa93af7be7a26ef3728dc7c5ec83ea6eaaf31b0b287ea6cc75bd91c9",
+        "workflows.py": "b1c91130ee4871c35c8858fd26b76bcbfda0628a4b4ffbe7d872a67b84a36f89"
+      },
+      "model_manifest_sha256": "2ab682f3fdf622705e9953d6678cd52f5c6b5d713b48c5df0666e856793a172c"
+    },
+    "asset": {
+      "policy_version": "safety-floor-v3",
+      "schema_version": "triage-v1",
+      "report_version": "equipment-report-v2",
+      "quality_metric_version": "triage-quality-v2",
+      "quality_threshold_sha256": "fd3c04640cf3e8932eacddcadadc727a0220ab5309fe8a0329ae5a1bd9dd2548",
+      "engine_build": "b10665",
+      "code_sha256": {
+        "__init__.py": "e90bbde083d5f6ab72bfaecc5a0ccfa1715f1b1c8bbc2285badb3dca8d41f708",
+        "app.py": "4d87f85edd02e6ae7a4d0958cc547dd3fbec19a77488cc1fac117d4cd602179c",
+        "auth.py": "a5d1b403ed3e6494ff536e9e58c11f3415afa4eff84e3053c27a66dc055e9362",
+        "context_quality.py": "de65009c1c370a917ca1ad9cd5eb3fbdc0e9e61a14ad90671b76140076ab28ad",
+        "domain.py": "a18e7c4a30519d38c16c3cba8a6e63473989f518fc6b71f77cab0f86ccf1cf51",
+        "engine.py": "9db1e31e8c5eaa6993c38e2a67c8446f377a6f2a708b191f976f1570549bbcdb",
+        "jobs.py": "c76b3fb1e7e35ae6d8d63384bda93883a790fbca298da1aaf4fee0e22db6c4af",
+        "legacy_domain.py": "19696870b9f0165c4061ccfbd1848f1e6014f79ddc2f3bd8864d99ecc28ff5f4",
+        "operations.py": "101566e5b2169f7029d6937790a38f3d30ffc9ebc145c25b6335d0c717fc8406",
+        "quality_metrics.py": "8319981e31fd40a0752ceb232d73bb138598b82a1667e54c94dc593bac41d33a",
+        "reviews.py": "ea0aa84961cec3e03336f602674f594540d70860d0c2c9ebf5d76b7d743e4666",
+        "store.py": "5ff6b5c9aa93af7be7a26ef3728dc7c5ec83ea6eaaf31b0b287ea6cc75bd91c9",
+        "workflows.py": "b1c91130ee4871c35c8858fd26b76bcbfda0628a4b4ffbe7d872a67b84a36f89"
+      },
+      "model_manifest_sha256": "2ab682f3fdf622705e9953d6678cd52f5c6b5d713b48c5df0666e856793a172c"
+    }
+  },
+  "authorship": "AI-created candidate and synthetic test labels; no independent human review",
+  "metrics_and_thresholds_fixed": "schemas/quality-contract-v2.json",
+  "development_evidence": "reports/quality-development.json",
+  "rule": "New holdout is authored only after this freeze. First measured attempt consumes unseen status globally; subsequent changes/repeats are observed development."
+}

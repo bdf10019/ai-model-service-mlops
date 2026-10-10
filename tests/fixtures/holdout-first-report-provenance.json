@@ -1,0 +1,5 @@
+{
+  "report_sha256": "6842843b3b570e80ad309ac372fcad4f1795cafe6e8b698cb3dc10ebf56a9ef3",
+  "scope": "Historical synthetic evaluation provenance only; no raw report or runtime identifiers",
+  "dataset": "holdout-v1"
+}

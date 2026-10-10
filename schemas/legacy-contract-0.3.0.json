@@ -1,0 +1,23 @@
+{
+  "captured_before_slice4_changes_at": 1789421234.407996,
+  "contract": {
+    "policy_version": "safety-floor-v2",
+    "schema_version": "triage-v1",
+    "engine_build": "b10665",
+    "code_sha256": {
+      "__init__.py": "e90bbde083d5f6ab72bfaecc5a0ccfa1715f1b1c8bbc2285badb3dca8d41f708",
+      "app.py": "f7b58ea7ae0b7096c88ca155256c9055ad4635baad7825466d97ef05e4dab2b4",
+      "auth.py": "a5d1b403ed3e6494ff536e9e58c11f3415afa4eff84e3053c27a66dc055e9362",
+      "domain.py": "19696870b9f0165c4061ccfbd1848f1e6014f79ddc2f3bd8864d99ecc28ff5f4",
+      "engine.py": "9db1e31e8c5eaa6993c38e2a67c8446f377a6f2a708b191f976f1570549bbcdb",
+      "jobs.py": "6e1ece12a4a255cef46f93ab62136c58cdbd9e56e83f0301328dd8c6e7f25edd",
+      "operations.py": "4b033d826734ce82873b5ea0d6e1d4861e637fdb847c7be19782817f19289037",
+      "store.py": "5ff6b5c9aa93af7be7a26ef3728dc7c5ec83ea6eaaf31b0b287ea6cc75bd91c9",
+      "workflows.py": "da886e80953a6c2f4bc93c727eeb8d866d24960364409f0d22f00c515031a0f9"
+    },
+    "model_manifest_sha256": "2ab682f3fdf622705e9953d6678cd52f5c6b5d713b48c5df0666e856793a172c"
+  },
+  "legacy_domain_sha256": "19696870b9f0165c4061ccfbd1848f1e6014f79ddc2f3bd8864d99ecc28ff5f4",
+  "engine_sha256": "9db1e31e8c5eaa6993c38e2a67c8446f377a6f2a708b191f976f1570549bbcdb",
+  "scope": "explicit_backward_compatibility_for_already_approved_active_previous_only_not_new_publication"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "equipment-triage-v1",
+  "version": "1.0.0",
+  "path": "data/evaluation-v1.json",
+  "sha256": "4fbc8ecb0c2ebd3be4b3c82cb77ba104a1bca3f5877410f2fb823598969710f7",
+  "case_count": 24,
+  "source": "original_synthetic_hand_authored",
+  "license": "CC-BY-4.0"
+}

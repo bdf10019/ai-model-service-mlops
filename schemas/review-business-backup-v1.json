@@ -1,0 +1,86 @@
+{
+  "$defs": {
+    "BusinessRecord": {
+      "additionalProperties": false,
+      "properties": {
+        "namespace": {
+          "enum": [
+            "configs",
+            "review_policies",
+            "reviews"
+          ],
+          "title": "Namespace",
+          "type": "string"
+        },
+        "id": {
+          "pattern": "^[a-zA-Z0-9_-]{1,64}$",
+          "title": "Id",
+          "type": "string"
+        },
+        "data": {
+          "additionalProperties": true,
+          "title": "Data",
+          "type": "object"
+        },
+        "sha256": {
+          "pattern": "^[a-f0-9]{64}$",
+          "title": "Sha256",
+          "type": "string"
+        }
+      },
+      "required": [
+        "namespace",
+        "id",
+        "data",
+        "sha256"
+      ],
+      "title": "BusinessRecord",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "format": {
+      "const": "console-review-business-backup-v1",
+      "title": "Format",
+      "type": "string"
+    },
+    "application_version": {
+      "const": "0.4.1",
+      "title": "Application Version",
+      "type": "string"
+    },
+    "created_at": {
+      "title": "Created At",
+      "type": "number"
+    },
+    "model": {
+      "additionalProperties": true,
+      "title": "Model",
+      "type": "object"
+    },
+    "records": {
+      "items": {
+        "$ref": "#/$defs/BusinessRecord"
+      },
+      "maxItems": 192,
+      "title": "Records",
+      "type": "array"
+    },
+    "sha256": {
+      "pattern": "^[a-f0-9]{64}$",
+      "title": "Sha256",
+      "type": "string"
+    }
+  },
+  "required": [
+    "format",
+    "application_version",
+    "created_at",
+    "model",
+    "records",
+    "sha256"
+  ],
+  "title": "ReviewBackup",
+  "type": "object"
+}

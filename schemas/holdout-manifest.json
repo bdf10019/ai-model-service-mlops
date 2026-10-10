@@ -1,0 +1,9 @@
+{
+  "id": "equipment-holdout-v1",
+  "version": "1.0.0",
+  "path": "data/holdout-v1.json",
+  "sha256": "dbd599f0701c9c786f70bfc9a844a4770052b460441c53714dc33d17d91011bc",
+  "case_count": 16,
+  "source": "original_synthetic_AI_assisted_annotation",
+  "license": "CC-BY-4.0"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "service",
+  "version": "service-v1",
+  "name": "維修分流台",
+  "team": "維修服務團隊",
+  "accent": "#087f8c",
+  "noun": "案件",
+  "focus": "接案摘要與缺失資訊",
+  "prompt_version": "triage-service-v1",
+  "required_fields": ["incident_text", "asset_id"],
+  "review_severities": ["high", "critical", "unknown"],
+  "review_critical_assets": false,
+  "approvals_required": 1,
+  "maintenance_window_required": false,
+  "queue_limit": 4,
+  "queue_timeout_seconds": 10,
+  "generation_timeout_seconds": 60
+}

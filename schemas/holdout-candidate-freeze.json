@@ -1,0 +1,11 @@
+{
+  "frozen_at": "2026-09-14T15:14:32.485950+00:00",
+  "rule": "freeze_before_first_holdout_evaluation; any_prompt_or_model_adjustment_after_observation_reclassifies_as_development",
+  "prompt_source_sha256": "19696870b9f0165c4061ccfbd1848f1e6014f79ddc2f3bd8864d99ecc28ff5f4",
+  "engine_source_sha256": "9db1e31e8c5eaa6993c38e2a67c8446f377a6f2a708b191f976f1570549bbcdb",
+  "model_sha256": "d4729ea11ea540d46be45effe7b41ffbe55bc51ce7e42bf7443cd2bbf84ca9ed",
+  "profiles": {
+    "service": "cd9e2bbdd72b3e4e67132c84863481b665d32c3321fcdab8b72b796fc59a149a",
+    "asset": "b9336d4ca42248b7d9769aee4c8fb248afff5309250934a5551376bd48aa892b"
+  }
+}

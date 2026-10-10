@@ -1,0 +1,50 @@
+{
+  "application_version": "0.4.1",
+  "model_weights": "existing Q8 unchanged, no new training",
+  "baseline": {
+    "prompt": "triage-v4",
+    "policy": "safety-floor-v2",
+    "status": "passed_existing_regression_only",
+    "limitations": "未宣稱通過新保留集或生產驗證；同Q8回滾是服務設定回滾。"
+  },
+  "candidates": [
+    {
+      "prompt": "triage-v5",
+      "policy": "safety-floor-v3",
+      "status": "unpublished_failed_quality"
+    },
+    {
+      "prompt": "triage-v5.1",
+      "policy": "safety-floor-v3.1",
+      "status": "unpublished_observed_development_only"
+    }
+  ],
+  "release_authority": "existing console release bundles; application update does not publish a candidate",
+  "human_results_counted_as_model_quality": false,
+  "known_defects": [
+    {
+      "id": "negation_scope",
+      "original_tests": [
+        "test_observed_holdout_v2_known_scope_failures"
+      ],
+      "original_cases": [
+        "h03",
+        "h08"
+      ],
+      "fix": "未／尚未與肯定、排除不確定性分別判斷",
+      "policy_version": "safety-floor-v3.1"
+    },
+    {
+      "id": "counterfactual_scope",
+      "original_tests": [
+        "test_observed_holdout_v2_known_scope_failures"
+      ],
+      "original_cases": [
+        "h11"
+      ],
+      "fix": "有條件／手冊示例／反事實不設風險底線；實際回報／重大歷史事件與新肯定危害保留",
+      "policy_version": "safety-floor-v3.1"
+    }
+  ],
+  "quality_limits": "已觀測資料回歸不是未見驗證；未達既有門檻或缺首次凍結保留資格時保持封鎖。"
+}
